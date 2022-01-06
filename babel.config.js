@@ -21,7 +21,9 @@ module.exports = {
           '@data': './src/data',
           '@damin': './src/main',
           '@main': './src/main',
-          '@validation': './src/validation'
+          '@validation': './src/validation',
+          '@app': './src/app',
+          '@config': './src/config'
         }
       }]
     ],

@@ -25,11 +25,13 @@
       "@util/*": ["util/*"],
       "@data/*": ["data/*"],
       "@main/*": ["main/*"],
-      "@validation/*": ["validation/*"]
+      "@validation/*": ["validation/*"],
+      "@app/*": ["app/*"],
+      "@config/*": ["config/*"]
     }
   },
   "include": [
-    "src"
+    "src", "__test__/*"
   ],
   "exclude": ["node_modules"]
 }
